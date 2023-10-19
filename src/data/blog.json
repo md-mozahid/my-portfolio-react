@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "img": "/public/img/blog/blog-01.jpg",
+    "title": "Development",
+    "times": "4 min read",
+    "description": "The Best Ways to Do Market Research For Your Business Plan. "
+  },
+  {
+    "id": 2,
+    "img": "/public/img/blog/blog-03.jpg",
+    "title": "Quote",
+    "times": "2 min read",
+    "description": "The Best Ways to Do Market Research For Your Business Plan. "
+  },
+  {
+    "id": 3,
+    "img": "/public/img/blog/blog-01.jpg",
+    "title": "Technic",
+    "times": "3 min read",
+    "description": "The Best Ways to Do Market Research For Your Business Plan. "
+  }
+]

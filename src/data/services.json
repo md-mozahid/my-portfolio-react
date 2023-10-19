@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Business Strategy",
+    "description": "We’ll handle everything from to app development process until it is time to make your project live."
+  },
+  {
+    "id": 2,
+    "title": "App development",
+    "description": "We’ll handle everything from to app development process until it is time to make your project live."
+  },
+  {
+    "id": 3,
+    "title": "Business Strategy",
+    "description": "We’ll handle everything from to app development process until it is time to make your project live."
+  },
+  {
+    "id": 4,
+    "title": "Mobile App",
+    "description": "We’ll handle everything from to app development process until it is time to make your project live."
+  },
+  {
+    "id": 5,
+    "title": "SEO Optimization",
+    "description": "We’ll handle everything from to app development process until it is time to make your project live."
+  },
+  {
+    "id": 6,
+    "title": "UX Consulting",
+    "description": "We’ll handle everything from to app development process until it is time to make your project live."
+  }
+]

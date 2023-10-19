@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "educationTitle": "BSc in Civil Engineering",
+    "institute": "Dhaka International University (2016 - 2019)",
+    "CGPA": "3.09/4",
+    "description": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture. "
+  },
+  {
+    "id": 2,
+    "educationTitle": "Diploma in Civil Engineering",
+    "institute": "Vision Polytechnic Institute (2011 - 2015)",
+    "CGPA": "3.55/4",
+    "description": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture. "
+  }
+]
