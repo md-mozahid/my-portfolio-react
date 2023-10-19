@@ -1,4 +1,4 @@
-const clients = () => {
+const Clients = () => {
   return (
     <section className="client-section">
       <div className="container">
@@ -56,4 +56,4 @@ const clients = () => {
   );
 };
 
-export default clients;
+export default Clients;

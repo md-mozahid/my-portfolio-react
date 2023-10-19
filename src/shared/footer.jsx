@@ -1,17 +1,13 @@
-const footer = () => {
+const Footer = () => {
   return (
-    <div>
-      <div className="footer">
-        <div className="container">
-          <div className="content">
-            <img src="/assets/img/logo/logo-dark.png" alt="logo" />
-            <h4>INBIO</h4>
-            <span>© 2023. All rights reserved by Rainbow-Themes.</span>
-          </div>
-        </div>
+    <div className="text-center py-6 ">
+      <div className="content">
+        <img src="/" alt="logo" />
+        <h4>Hire Me</h4>
+        <span>© 2023. All rights reserved by Md muzahid.</span>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default footer;
+export default Footer

@@ -1,4 +1,4 @@
-const Service = () => {
+const singleService = () => {
   return (
     <div className="w-[400px] p-6 bg-slate-500 rounded-xl">
       <img
@@ -23,4 +23,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default singleService

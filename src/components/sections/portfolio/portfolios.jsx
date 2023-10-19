@@ -1,4 +1,4 @@
-import Portfolio from "./portfolio";
+import Portfolio from './singlePortfolio'
 import Data from "../../../data/portfolioData";
 
 const Portfolios = () => {

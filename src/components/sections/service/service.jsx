@@ -1,7 +1,7 @@
-import Service from "./service";
-import ServicesData from "../../../data/servicesData";
+import ServicesData from '../../../data/servicesData'
+import SingleService from './singleService'
 
-const Services = () => {
+const Service = () => {
   return (
     <section className="">
       <div className="text-center mb-16">
@@ -12,11 +12,11 @@ const Services = () => {
       </div>
       <div className="grid grid-cols-3 gap-10">
         {ServicesData.map((service, index) => {
-          return <Service key={index} service={service} />;
+          return <SingleService key={index} service={service} />
         })}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Services;
+export default Service
