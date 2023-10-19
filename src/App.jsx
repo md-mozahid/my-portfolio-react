@@ -1,9 +1,9 @@
 import "./App.css";
-import Services from "./components/sections/services/services";
+import Contacts from "./components/sections/contact/contacts";
 function App() {
   return (
     <>
-      <Services />
+      <Contacts />
     </>
   );
 }

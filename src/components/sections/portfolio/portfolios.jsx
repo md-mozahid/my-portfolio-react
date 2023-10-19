@@ -1,24 +1,24 @@
-import Data from "../../../data/testimonialData";
-import Testimonial from "./testimonial";
+import Portfolio from "./portfolio";
+import Data from "../../../data/portfolioData";
 
-const Testimonials = () => {
+const Portfolios = () => {
   return (
     <section className="">
       <div className="text-center mb-16">
         <span className="text-red-500 text-lg font-semibold">
-          What clients say about us !
+          Visit my portfolio and keep feedback
         </span>
         <h2 className="text-6xl font-sans font-bold tracking-wide">
-          Testimonial
+          My Portfolio
         </h2>
       </div>
       <div className="grid grid-cols-3 gap-10">
-        {Data.map((testimonial, index) => {
-          return <Testimonial key={index} testimonial={testimonial} />;
+        {Data.map((portfolio, index) => {
+          return <Portfolio key={index} portfolio={portfolio} />;
         })}
       </div>
     </section>
   );
 };
 
-export default Testimonials;
+export default Portfolios;

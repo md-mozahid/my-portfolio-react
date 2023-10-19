@@ -1,83 +1,32 @@
-const contact = () => {
+const Contact = () => {
   return (
-    <div>
-      <section className="contact-section">
-        <div className="container">
-          <div className="content">
-            <div className="title">
-              <span>contact</span>
-              <h2>Contact With Me</h2>
-            </div>
-            <div className="contact-area">
-              <div className="relationship">
-                <img
-                  src="/assets/img/contact/contact1.png"
-                  alt="contact image"
-                />
-                <h4>Nevine Acotanza</h4>
-                <span>Chief Operating Officer</span>
-                <p>
-                  I am available for freelance work. Connect with me via and
-                  call in to my account.
-                </p>
-                <div>
-                  <span>Phone: +01234567890</span>
-                  <span>Email: admin@example.com</span>
-                </div>
-                <div className="l-icons">
-                  <h4>find with me</h4>
-                  <div className="fw-i">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-linkedin-in"></i>
-                  </div>
-                </div>
-              </div>
-              <div className="form-area">
-                <form action="#">
-                  <div className="input1">
-                    <input
-                      className="inputVal"
-                      type="text"
-                      placeholder="Your name"
-                    />
-                    <input
-                      className="inputVal"
-                      type="text"
-                      placeholder="Your phone number"
-                    />
-                  </div>
-                  <input
-                    className="inputVal"
-                    type="text"
-                    placeholder="Your email"
-                  />
-                  <input
-                    className="inputVal"
-                    type="text"
-                    placeholder="Your subject"
-                  />
-                  <textarea
-                    className="inputVal"
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="10"
-                    placeholder="Your message"
-                  ></textarea>
-                  <button className="btn btn-fw btn-hover" type="submit">
-                    Send Message
-                    <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-          <hr />
+    <div className="w-[400px] p-6 bg-slate-500 rounded-xl">
+      <img
+        className="w-full rounded-md object-cover"
+        src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        alt="Laptop"
+      />
+      <div className="mt-4">
+        <h3 className="text-lg text-white font-semibold">About Macbook</h3>
+        <span>Designation</span>
+        <p className="text-white mt-3 mb-5">
+          I am available for freelance work. Connect with me via and call in to
+          my account.
+        </p>
+        <span>Phone: +880 123 456 789</span>
+        <span>Email: admin@example.com</span>
+      </div>
+      <div className="mt-5">
+        <h5 className="capitalize">Find with me</h5>
+        <div className="flex items-center gap-5 mt-2">
+          <i className="fw-i fab fa-facebook-f"></i>
+          <i className="fw-i fab fa-twitter"></i>
+          <i className="fw-i fab fa-linkedin-in"></i>
+          <i className="fw-i fas fa-envelope"></i>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
 
-export default contact;
+export default Contact;

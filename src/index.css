@@ -22,14 +22,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: #213547;
+  color: #fff;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
+.button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -40,11 +37,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+.button:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+.button:focus,
+.button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
@@ -56,7 +53,76 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
+  .button {
     background-color: #f9f9f9;
   }
+}
+
+/* form */
+.inputVal {
+  width: 100%;
+  color: #213547;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.inputVal:focus {
+  border: 1px solid red;
+}
+
+/* button */
+
+.btn,
+.btn:link,
+.btn:visited {
+  background-color: #fff;
+  color: #213547;
+  text-align: center;
+  padding: 15px 35px;
+  border: none;
+  font-size: 18px;
+  display: table;
+  border-radius: 10px;
+  margin: auto;
+  cursor: pointer;
+  z-index: 2;
+  /* box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #fff; */
+}
+.btn-hover:hover {
+  background-color: #ef4444;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn-fw {
+  width: 100%;
+}
+
+/* icon */
+.fw-i {
+  background-color: #213547;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.fw-i:hover {
+  background-color: #fff;
+  color: #213547;
+}
+.fw-i:first-child {
+  margin-left: 0;
+}
+.fw-i:last-child {
+  margin-right: 0;
 }

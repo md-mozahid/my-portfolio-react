@@ -1,84 +1,19 @@
 const Portfolio = () => {
   return (
-    <section className="portfolio-section">
-      <div className="container">
-        <div className="content">
-          <div className="title text-center">
-            <span>visit my portfolio and keep feedback</span>
-            <h2>My Portfolio</h2>
-          </div>
-          <div className="portfolios">
-            <div className="portfolio">
-              <img
-                src="/assets//img/portfolio/portfolio-01.jpg"
-                alt="portfolio"
-              />
-              <div className="designation">
-                <h5>development</h5>
-                <h5>600</h5>
-              </div>
-              <h4>The services provide for design</h4>
-            </div>
-            <div className="portfolio">
-              <img
-                src="/assets//img/portfolio/portfolio-02.jpg"
-                alt="portfolio"
-              />
-              <div className="designation">
-                <h5>development</h5>
-                <h5>600</h5>
-              </div>
-              <h4>Mobile app landing design & app maintain</h4>
-            </div>
-            <div className="portfolio">
-              <img
-                src="/assets//img/portfolio/portfolio-03.jpg"
-                alt="portfolio"
-              />
-              <div className="designation">
-                <h5>development</h5>
-                <h5>600</h5>
-              </div>
-              <h4>The services provide for design</h4>
-            </div>
-            <div className="portfolio">
-              <img
-                src="/assets//img/portfolio/portfolio-04.jpg"
-                alt="portfolio"
-              />
-              <div className="designation">
-                <h5>development</h5>
-                <h5>600</h5>
-              </div>
-              <h4>The services provide for design</h4>
-            </div>
-            <div className="portfolio">
-              <img
-                src="/assets//img/portfolio/portfolio-05.jpg"
-                alt="portfolio"
-              />
-              <div className="designation">
-                <h5>development</h5>
-                <h5>600</h5>
-              </div>
-              <h4>The services provide for design</h4>
-            </div>
-            <div className="portfolio">
-              <img
-                src="/assets//img/portfolio/portfolio-06.jpg"
-                alt="portfolio"
-              />
-              <div className="designation">
-                <h5>development</h5>
-                <h5>600</h5>
-              </div>
-              <h4>The services provide for design</h4>
-            </div>
-          </div>
+    <div className="w-[400px] p-6 bg-slate-500 rounded-xl">
+      <img
+        className="w-full rounded-md object-cover"
+        src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        alt="Laptop"
+      />
+      <div className="mt-4">
+        <div className="flex items-center justify-between">
+          <span>Gallery</span>
+          <span>375</span>
         </div>
-        <hr />
+        <h5>Online food delivery app design</h5>
       </div>
-    </section>
+    </div>
   );
 };
 
