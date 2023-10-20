@@ -1,9 +1,15 @@
+import Logo from '../../../assets/img/blog/blog-01.jpg'
+
 const Client = () => {
   return (
-    <div className="w-[900px] mx-auto text-center bg-slate-700 px-6 py-5 rounded-lg">
+    <div className="w-[900px] mx-auto text-center border border-[#475569] px-6 py-5 rounded-lg">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <img className="w-20 h-20 bg-slate-500 rounded-full" src="" alt="" />
+          <img
+            className="w-20 h-20 border border-[#475569] rounded-full"
+            src={Logo}
+            alt=""
+          />
           <div className="text-left">
             <h4 className="text-lg font-medium">Client Name</h4>
             <span className="">Designation</span>

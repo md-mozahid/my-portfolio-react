@@ -6,7 +6,7 @@ const Service = () => {
     <section className="">
       <div className="text-center mb-16">
         <h2 className="text-6xl font-sans font-bold tracking-wide uppercase">
-          What I Do
+          Services
         </h2>
       </div>
       <div className="grid grid-cols-3 gap-10">

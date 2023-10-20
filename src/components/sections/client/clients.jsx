@@ -4,7 +4,7 @@ const Clients = () => {
   return (
     <section className="">
       <div className="text-center mb-16">
-        <h2 className="text-6xl font-sans font-bold tracking-wide">
+        <h2 className="text-6xl font-sans font-bold tracking-wide uppercase">
           Client Feedback
         </h2>
       </div>

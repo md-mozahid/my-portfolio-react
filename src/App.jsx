@@ -18,13 +18,21 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+     
         <Hero />
+        
         <Skill />
+        
         <Services />
+        
         <Portfolio />
+       
         <Resume />
+      
         <Testimonials />
+       
         <Clients />
+        <hr />
         <Contact />
         {/* <Routes>
           <Route path="/" element={<Hero />} />

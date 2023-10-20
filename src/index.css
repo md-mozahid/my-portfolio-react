@@ -22,16 +22,16 @@
     @apply hover:bg-red-500 hover:cursor-pointer hover:text-white;
   }
   .inputVal {
-    @apply w-full bg-slate-600 p-3 border-2 outline-0 text-white rounded-md mt-1 mb-3 text-base focus:border-rose-600;
+    @apply w-full bg-[#0f1629] p-3 border border-[#475569] outline-0 rounded-md mt-1 mb-3 focus:border-rose-700;
   }
   .btn {
-    @apply bg-[#41b3a3] text-center text-base uppercase font-medium px-12 py-4 border-0 table rounded-lg m-auto cursor-pointer;
+    @apply text-center text-base uppercase font-medium px-12 py-4 border-0 table rounded-lg m-auto cursor-pointer hover:bg-[#334155];
   }
   .btn-fw {
     @apply w-full;
   }
   .btn-hover {
-    @apply hover:bg-red-500 text-white hover:transition-all hover:-translate-y-1;
+    @apply hover:bg-red-500 text-white hover:transition-all;
   }
   .social-icon {
     @apply bg-slate-400 w-12 h-12 p-4 m-auto text-center inline-block rounded-lg font-semibold cursor-pointer;

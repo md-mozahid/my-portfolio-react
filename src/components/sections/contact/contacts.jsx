@@ -1,12 +1,11 @@
-import Form from "../../reUsable/form";
-import Contact from "./contact";
-
+import Contact from './contact'
+import Form from './form'
 
 const Contacts = () => {
   return (
     <section className="">
       <div className="text-center mb-16">
-        <h2 className="text-6xl font-sans font-bold tracking-wide">
+        <h2 className="text-6xl font-sans font-bold tracking-wide uppercase">
           Contact With Me
         </h2>
       </div>
@@ -15,7 +14,7 @@ const Contacts = () => {
         <Form />
       </div>
     </section>
-  );
+  )
 }
 
 export default Contacts

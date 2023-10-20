@@ -9,21 +9,29 @@ const Resumes = () => {
           My Resume
         </h2>
       </div>
-      <div className="flex items-center justify-between  space-x-5 mb-10 bg-slate-500 w-[900px] m-auto rounded-xl px-16 py-4">
-        <button className="text-white border-0 outline-0" type="button">
+      <div className="flex items-center justify-between  mb-16 text-center w-[1000px] mx-auto ">
+        <a
+          className="w-[250px] py-3 rounded-l-lg border border-[#475569] cursor-pointer hover:bg-slate-700"
+          type="button">
           Education
-        </button>
-        <button className="text-whit border-0 outline-0" type="button">
+        </a>
+        <a
+          className="w-[250px] py-3  border-t border-b border-[#475569] cursor-pointer hover:bg-slate-700"
+          type="button">
           Professional Skill
-        </button>
-        <button className="text-white  border-0 outline-0" type="button">
+        </a>
+        <a
+          className="w-[250px] py-3  border border-r-0 border-[#475569] cursor-pointer hover:bg-slate-700"
+          type="button">
           Experience
-        </button>
-        <button className="text-whit border-0 outline-0" type="button">
+        </a>
+        <a
+          className="w-[250px] py-3 rounded-r-lg border border-[#475569] cursor-pointer hover:bg-slate-700"
+          type="button">
           Interview
-        </button>
+        </a>
       </div>
-      
+
       <div className="grid grid-cols-2 gap-10 w-[1000px] m-auto">
         {Data.map((resume, index) => {
           return <Resume key={index} resume={resume} />
