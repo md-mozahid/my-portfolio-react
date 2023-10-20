@@ -5,9 +5,6 @@ const Resumes = () => {
   return (
     <section className="">
       <div className="text-center mb-16">
-        <span className="text-red-500 text-lg font-semibold">
-          2+ Years of Experience
-        </span>
         <h2 className="text-6xl font-sans font-bold tracking-wide uppercase">
           My Resume
         </h2>

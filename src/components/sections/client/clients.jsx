@@ -1,59 +1,40 @@
+import Client from './client'
+
 const Clients = () => {
   return (
-    <section className="client-section">
-      <div className="container">
-        <div className="content">
-          <div className="title">
-            <span>popular clients</span>
-            <h2>Awesome Clients</h2>
-          </div>
-          <div className="client-area">
-            <div className="client-type">
-              <button className="btn btn-client">Javascript</button>
-              <button className="btn btn-client">Product Design</button>
-              <button className="btn btn-client">Wordpress</button>
-              <button className="btn btn-client">HTML to React</button>
-              <button className="btn btn-client">React to laravel</button>
-              <button className="btn btn-client">Python</button>
-            </div>
-            <div className="clients-area">
-              <div className="clients">
-                <img src="/assets//img/client/png/brand-01.png" alt="Client" />
-                <hr className="hr" />
-                <h4>John Due</h4>
-              </div>
-              <div className="clients">
-                <img src="/assets//img/client/png/brand-01.png" alt="Client" />
-                <hr className="hr" />
-                <h4>John Due</h4>
-              </div>
-              <div className="clients">
-                <img src="/assets//img/client/png/brand-01.png" alt="Client" />
-                <hr className="hr" />
-                <h4>John Due</h4>
-              </div>
-              <div className="clients">
-                <img src="/assets//img/client/png/brand-01.png" alt="Client" />
-                <hr className="hr" />
-                <h4>John Due</h4>
-              </div>
-              <div className="clients">
-                <img src="/assets//img/client/png/brand-01.png" alt="Client" />
-                <hr className="hr" />
-                <h4>John Due</h4>
-              </div>
-              <div className="clients">
-                <img src="/assets//img/client/png/brand-01.png" alt="Client" />
-                <hr className="hr" />
-                <h4>John Due</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
+    <section className="">
+      <div className="text-center mb-16">
+        <h2 className="text-6xl font-sans font-bold tracking-wide">
+          Client Feedback
+        </h2>
+      </div>
+      <div>
+        <Client />
+      </div>
+      <div className="flex items-center justify-center py-10">
+        <a
+          href="#"
+          className="mx-1 flex items-center rounded-md border border-gray-400 px-3 py-1 hover:scale-105">
+          1
+        </a>
+        <a
+          href="#"
+          className="mx-1 flex items-center rounded-md border border-gray-400 px-3 py-1 hover:scale-105">
+          2
+        </a>
+        <a
+          href="#"
+          className="mx-1 flex items-center rounded-md border border-gray-400 px-3 py-1 hover:scale-105">
+          3
+        </a>
+        <a
+          href="#"
+          className="mx-1 flex items-center rounded-md border border-gray-400 px-3 py-1 hover:scale-105">
+          4
+        </a>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Clients;
+export default Clients

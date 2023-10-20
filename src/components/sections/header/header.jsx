@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="w-full min-h-screen bg-slate-400">
+    <div className="w-full min-h-screen">
       <div className="mx-auto flex items-center justify-center p-6">
         <img
           className="w-96"
