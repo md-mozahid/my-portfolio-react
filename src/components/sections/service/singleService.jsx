@@ -1,6 +1,6 @@
 const singleService = () => {
   return (
-    <div className="w-[400px] p-6 bg-slate-500 rounded-xl">
+    <div className="w-[400px] p-6 bg-[#334155] rounded-xl hover:cursor-pointer hover:scale-105 hover:transition">
       <img
         className="w-full rounded-md object-cover"
         src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
@@ -13,14 +13,13 @@ const singleService = () => {
           debitis?
         </p>
         <button
-          className="mt-4 rounded-md bg-white px-2.5 py-2 font-semibold "
-          type="button"
-        >
+          className="btn btn-hover mt-4 rounded-md px-3 py-2 font-medium"
+          type="button">
           Read More
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default singleService

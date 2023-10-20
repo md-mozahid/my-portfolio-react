@@ -12,5 +12,19 @@
     "institute": "Vision Polytechnic Institute (2011 - 2015)",
     "CGPA": "3.55/4",
     "description": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture. "
+  },
+  {
+    "id": 3,
+    "educationTitle": "Diploma in Civil Engineering",
+    "institute": "Vision Polytechnic Institute (2011 - 2015)",
+    "CGPA": "3.55/4",
+    "description": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture. "
+  },
+  {
+    "id": 4,
+    "educationTitle": "Diploma in Civil Engineering",
+    "institute": "Vision Polytechnic Institute (2011 - 2015)",
+    "CGPA": "3.55/4",
+    "description": "The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture. "
   }
 ]
