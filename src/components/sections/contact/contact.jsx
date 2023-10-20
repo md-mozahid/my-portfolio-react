@@ -12,31 +12,34 @@ const Contact = () => {
           <button
             className="btn btn-fw text-left py-2.5 pl-5 border border-[#475569]"
             type="button">
-            Email
+            <i className="fas fa-envelope mr-2 text-[#7289da]"></i> Email
           </button>
           <button
             className="btn btn-fw text-left py-2.5 pl-5 border border-[#475569]"
             type="button">
-            Linkedin
+            <i className="fab fa-linkedin-in mr-2 text-[#0077b5]"></i> Linkedin
           </button>
           <button
             className="btn btn-fw text-left py-2.5 pl-5 border border-[#475569]"
             type="button">
-            Twitter
+            <i className="fab fa-twitter mr-2 text-[#1ba1f2]"></i> Twitter
           </button>
           <button
             className="btn btn-fw text-left py-2.5 pl-5 border border-[#475569]"
             type="button">
+            <i className="fa-brands fa-square-instagram mr-2 text-[#c231a1]"></i>
             Instagram
           </button>
           <button
             className="btn btn-fw text-left py-2.5 pl-5 border border-[#475569]"
             type="button">
+            <i className="fa-brands fa-whatsapp mr-2 text-[#7289da]"></i>
             Whatsapp
           </button>
           <button
             className="btn btn-fw text-left py-2.5 pl-5 border border-[#475569]"
             type="button">
+            <i className="fa-brands fa-facebook-messenger mr-2 text-[#3b5997]"></i>
             Messenger
           </button>
         </div>

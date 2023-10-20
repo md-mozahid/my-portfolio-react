@@ -8,7 +8,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #0f1629;
+  background-color: #0f172a;
   color: #fff;
 }
 
@@ -35,6 +35,7 @@ body {
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
+  /* background-color: #334155; */
 }
 .skillItem h4 {
   margin-top: 10px;

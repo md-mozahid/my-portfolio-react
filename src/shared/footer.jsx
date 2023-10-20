@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <div className="flex justify-around items-center text-center px-5 mt-4 mb-6 ">
         <div className="text-slate-600">
-          <span>© 2023. All rights reserved by Md muzahid.</span>
+          <span>© 2023. All rights reserved by Md Muzahid.</span>
         </div>
         <div className="fw-i flex items-center space-x-5">
           <i className="fab fa-facebook-f hover:bg-[#3b5997]"></i>

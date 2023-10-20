@@ -10,8 +10,6 @@ import Testimonials from './pages/testimonials'
 import Footer from './shared/footer'
 import Navbar from './shared/navbar'
 
-// import Service from './components/sections/service/service'
-// import Contact from './components/sections/contact/contacts'
 
 function App() {
   return (
@@ -20,7 +18,7 @@ function App() {
         <Navbar />
      
         <Hero />
-        
+        <hr />
         <Skill />
         
         <Services />

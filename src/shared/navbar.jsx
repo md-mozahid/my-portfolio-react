@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <navbar>
-      <nav className="mx-auto flex items-center justify-between px-5 py-5">
+      <nav className="mx-auto flex items-center justify-between px-5 py-8">
         <span className="text-3xl">Logo</span>
 
         <ul className="inline-flex space-x-4 uppercase ">
