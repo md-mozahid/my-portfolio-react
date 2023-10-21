@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <navbar>
       <nav className="mx-auto flex items-center justify-between px-5 py-8">
-        <span className="text-3xl">Logo</span>
+        <span className="text-3xl">
+          <Link to="/">Logo</Link>
+        </span>
 
         <ul className="inline-flex space-x-4 uppercase ">
           <li>
@@ -33,9 +35,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="">
-          <button className="btn py-3 border border-[#475569]">
-            Hire Me
-          </button>
+          <button className="btn py-3 border border-[#475569]">Hire Me</button>
         </div>
       </nav>
       <hr />

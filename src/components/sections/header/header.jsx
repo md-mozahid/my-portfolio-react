@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom'
+
 const Header = () => {
   return (
-    <header>
-      <div className="h-[100vh] mx-auto flex flex-col items-center mt-36">
+    <header className="h-[70vh]">
+      <div className="mx-auto flex flex-col items-center mt-36">
         <div className="text-center">
           <h1 className="text-6xl font-bold mb-5">
             Lorem ipsum dolor sit <br /> amet consectetur dicta.
@@ -13,16 +15,18 @@ const Header = () => {
           </p>
         </div>
         <div className="flex items-center space-x-5 mt-10 ">
-          <button
+          <Link
+            to="skills"
             className="btn border border-[#475569] w-48 tracking-wider"
             type="button">
             Skills
-          </button>
-          <button
+          </Link>
+          <Link
+            to="portfolio"
             className="btn border border-[#475569] w-48 tracking-wider"
             type="button">
-            Projects
-          </button>
+            Portfolio
+          </Link>
         </div>
       </div>
     </header>

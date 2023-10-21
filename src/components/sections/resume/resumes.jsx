@@ -1,5 +1,4 @@
-import Data from '../../../data/educationsData'
-import Resume from './singleResume'
+import { Link, Outlet } from 'react-router-dom'
 
 const Resumes = () => {
   return (
@@ -10,33 +9,29 @@ const Resumes = () => {
         </h2>
       </div>
       <div className="flex items-center justify-between  mb-16 text-center w-[1000px] mx-auto ">
-        <a
+        <Link to='educations'
           className="w-[250px] py-3 rounded-l-lg border border-[#475569] cursor-pointer hover:bg-slate-700"
           type="button">
           Education
-        </a>
-        <a
+        </Link>
+        <Link
+          to="skills"
           className="w-[250px] py-3  border-t border-b border-[#475569] cursor-pointer hover:bg-slate-700"
           type="button">
-          Professional Skill
-        </a>
-        <a
+          My Skills
+        </Link>
+        <Link to='experience'
           className="w-[250px] py-3  border border-r-0 border-[#475569] cursor-pointer hover:bg-slate-700"
           type="button">
           Experience
-        </a>
-        <a
+        </Link>
+        <Link to='interview'
           className="w-[250px] py-3 rounded-r-lg border border-[#475569] cursor-pointer hover:bg-slate-700"
           type="button">
           Interview
-        </a>
+        </Link>
       </div>
-
-      <div className="grid grid-cols-2 gap-10 w-[1000px] m-auto">
-        {Data.map((resume, index) => {
-          return <Resume key={index} resume={resume} />
-        })}
-      </div>
+      <Outlet />
     </section>
   )
 }
