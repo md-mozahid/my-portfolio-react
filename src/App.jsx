@@ -4,9 +4,10 @@ import Experience from './components/sections/resume/experience'
 import Interview from './components/sections/resume/interview'
 import Skills from './components/sections/resume/skills'
 import Layout from './layout/layout'
+import About from './pages/about'
 import Clients from './pages/clients'
 import Contact from './pages/contact'
-import Hero from './pages/hero'
+import Home from './pages/home'
 import NotFound from './pages/notFound'
 import Portfolio from './pages/portfolio'
 import Resume from './pages/resume'
@@ -18,8 +19,8 @@ function App() {
     <>
       <Layout>
         <Routes>
-          <Route path="/" element={<Hero />} />
-          {/* <Route path="/about" element={} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />}>

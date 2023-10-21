@@ -1,11 +1,10 @@
+const url =
+  'https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60'
+
 const Testimonial = () => {
   return (
-    <div className=" w-full overflow-hidden p-6 border border-[#475569] rounded-xl hover:cursor-pointer hover:transition">
-      <img
-        className="w-full rounded-md object-cover"
-        src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-        alt="Laptop"
-      />
+    <div className="w-full overflow-hidden p-6 border border-[#475569] rounded-xl hover:cursor-pointer hover:transition">
+      <img className="w-full rounded-md object-cover" src={url} alt="logo" />
       <div className="mt-4">
         <h3 className="text-lg text-white font-semibold">About Macbook</h3>
         <p className="text-white mt-3 ">
