@@ -19,12 +19,6 @@ const Navbar = () => {
               <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link to="portfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="resume">Resume</Link>
-            </li>
-            <li>
               <Link to="testimonial">Testimonial</Link>
             </li>
             <li>
@@ -36,8 +30,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center">
-          <div className="hidden md:block">
-            <i className="fa-solid fa-bars cursor-pointer  text-2xl mr-3"></i>
+          <div className=" mr-3 md:hidden">
+            <i className="fa-solid fa-bars cursor-pointer text-2xl"></i>
           </div>
           <button className="btn py-3 border hidden md:block border-[#475569]">
             Hire Me
