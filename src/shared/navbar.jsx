@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <navbar>
+    <div>
       <nav className="mx-auto flex items-center justify-between px-5 py-8">
         <span className="text-3xl">
           <Link to="/">Logo</Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
       </nav>
       <hr />
-    </navbar>
+    </div>
   )
 }
 

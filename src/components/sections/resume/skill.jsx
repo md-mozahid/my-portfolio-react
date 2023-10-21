@@ -9,10 +9,10 @@ import Sass from '../../../assets/icons/sass.svg'
 
 const Skill = () => {
   return (
-    <div className="grid grid-cols-4 gap-5 p-5">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
       <div className="skillItem">
         <img className="" src={Html5} alt="" />
-        <h4>Javascript</h4>
+        <h4 className=''>Javascript</h4>
         <p className="">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
           in.

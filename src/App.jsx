@@ -1,9 +1,9 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-// import Skill from './components/sections/resume/skill'
+import { Route, Routes } from 'react-router-dom'
 import Education from './components/sections/resume/educations'
 import Experience from './components/sections/resume/experience'
 import Interview from './components/sections/resume/interview'
 import Skills from './components/sections/resume/skills'
+import Layout from './layout/layout'
 import Clients from './pages/clients'
 import Contact from './pages/contact'
 import Hero from './pages/hero'
@@ -12,25 +12,11 @@ import Portfolio from './pages/portfolio'
 import Resume from './pages/resume'
 import Services from './pages/services'
 import Testimonials from './pages/testimonials'
-import Footer from './shared/footer'
-import Navbar from './shared/navbar'
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-
-        {/* <Hero />
-        <hr />
-        <Skill />       
-        <Services />        
-        <Portfolio />      
-        <Resume />      
-        <Testimonials />       
-        <Clients />
-        <hr />
-        <Contact /> */}
+      <Layout>
         <Routes>
           <Route path="/" element={<Hero />} />
           {/* <Route path="/about" element={} /> */}
@@ -47,8 +33,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
-      </BrowserRouter>
+      </Layout>
     </>
   )
 }
