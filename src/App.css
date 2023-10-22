@@ -66,5 +66,5 @@ footer::before {
   margin-bottom: 25px;
 }
 hr {
-  border: 1px solid #374151;
+  border: 1px solid #374151 !important;
 }

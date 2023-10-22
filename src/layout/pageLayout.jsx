@@ -1,5 +1,9 @@
 const pageLayout = ({ children }) => {
-  return <div className=" pt-10 p-6">{children}</div>
+  return (
+    <div className="border py-10 p-6">
+      {children}
+    </div>
+  )
 }
 
 export default pageLayout

@@ -3,7 +3,7 @@ import SingleService from './singleService'
 
 const Service = () => {
   return (
-    <section className="">
+    <section className="h-screen">
       <div className="text-center mb-16">
         <h2 className="text-6xl font-sans font-bold tracking-wide uppercase">
           Services

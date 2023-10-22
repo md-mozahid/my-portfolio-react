@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className="h-[70vh]">
-      <div className="mx-auto flex flex-col items-center mt-36">
+    <header className="h-screen">
+      <div className="flex flex-col items-center mt-40">
         <div className="text-center">
           <h1 className="text-6xl font-bold mb-5">
             Lorem ipsum dolor sit <br /> amet consectetur dicta.
