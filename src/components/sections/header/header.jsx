@@ -16,16 +16,16 @@ const Header = () => {
         </div>
         <div className="flex items-center space-x-5 mt-10 ">
           <Link
-            to="skills"
+            to="services"
             className="btn border border-[#475569] w-48 tracking-wider"
             type="button">
-            Skills
+            Services
           </Link>
           <Link
-            to="portfolio"
+            to="testimonial"
             className="btn border border-[#475569] w-48 tracking-wider"
             type="button">
-            Portfolio
+            Testimonial
           </Link>
         </div>
       </div>

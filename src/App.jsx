@@ -21,11 +21,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="skills" element={<Skills />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />}>
             {/* <Route path="educations" element={<Education />} /> */}
-            <Route path="skills" element={<Skills />} />
             <Route path="experience" element={<Experience />} />
             <Route path="interview" element={<Interview />} />
           </Route>
