@@ -68,3 +68,6 @@ h2::after {
 hr {
   border: 1px solid #374151 !important;
 }
+.active {
+  background-color: #334155 !important;
+}

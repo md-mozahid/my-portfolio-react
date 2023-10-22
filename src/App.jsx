@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import Education from './components/sections/resume/educations'
+// import Education from './components/sections/resume/educations'
 import Experience from './components/sections/resume/experience'
 import Interview from './components/sections/resume/interview'
 import Skills from './components/sections/resume/skills'
@@ -24,7 +24,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />}>
-            <Route path="educations" element={<Education />} />
+            {/* <Route path="educations" element={<Education />} /> */}
             <Route path="skills" element={<Skills />} />
             <Route path="experience" element={<Experience />} />
             <Route path="interview" element={<Interview />} />
