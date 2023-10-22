@@ -1,6 +1,6 @@
 const pricing = () => {
   return (
-    <section className="pricing-section">
+    <section className="max-w-full">
       <div className="container">
         <div className="content">
           <div className="title">
@@ -105,7 +105,7 @@ const pricing = () => {
         <hr />
       </div>
     </section>
-  );
+  )
 };
 
 export default pricing;

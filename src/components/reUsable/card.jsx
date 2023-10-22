@@ -1,4 +1,4 @@
-const Card = (img, title, like, description, btn) => {
+const Card = ({img, title, like, description, btn}) => {
   return (
     <div className="w-full p-6 border border-[#475569] rounded-md hover:cursor-pointer hover:transition">
       <img

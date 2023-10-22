@@ -2,7 +2,7 @@ import Logo from '../../../assets/img/contact/contact1.png'
 
 const Contact = () => {
   return (
-    <div className="w-[400px] p-6 border border-[#475569] rounded-xl">
+    <div className="w-[400px] p-6 border border-[#475569] rounded-lg">
       <img className="w-96 rounded-md" src={Logo} alt="Contact logo" />
       <div className="mt-4">
         <h5 className="uppercase">Find with me</h5>
@@ -33,12 +33,6 @@ const Contact = () => {
             type="button">
             <i className="fa-brands fa-whatsapp mr-2 text-[#7289da]"></i>
             Whatsapp
-          </button>
-          <button
-            className="btn btn-fw text-left py-2.5 pl-5 border border-[#475569]"
-            type="button">
-            <i className="fa-brands fa-facebook-messenger mr-2 text-[#3b5997]"></i>
-            Messenger
           </button>
         </div>
       </div>

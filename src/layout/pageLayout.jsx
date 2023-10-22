@@ -1,9 +1,5 @@
 const pageLayout = ({ children }) => {
-  return (
-    <div className="border py-10 p-6">
-      {children}
-    </div>
-  )
+  return <div className="border-b border-[#374151] py-16">{children}</div>
 }
 
 export default pageLayout

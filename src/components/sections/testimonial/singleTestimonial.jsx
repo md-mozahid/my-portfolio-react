@@ -3,11 +3,11 @@ const url =
 
 const Testimonial = () => {
   return (
-    <div className="w-full overflow-hidden p-6 border border-[#475569] rounded-xl hover:cursor-pointer hover:transition">
-      <img className="w-full rounded-md object-cover" src={url} alt="logo" />
+    <div className="w-full p-6 border border-[#475569] rounded-lg hover:cursor-pointer">
+      <img className="w-full rounded-md object-cover" src={url} alt="image" />
       <div className="mt-4">
-        <h3 className="text-lg text-white font-semibold">About Macbook</h3>
-        <p className="text-white mt-3 ">
+        <h3 className="text-lg font-semibold">About Macbook</h3>
+        <p className="mt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
           debitis?
         </p>

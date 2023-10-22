@@ -2,7 +2,7 @@ const singleResume = () => {
   return (
     <div>
       <div>
-        <h3 className="text-white text-3xl font-semibold mb-5">
+        <h3 className="text-3xl font-semibold mb-5">
           Education Qualification
         </h3>
       </div>
@@ -18,7 +18,7 @@ const singleResume = () => {
             3.09/4
           </span>
         </div>
-        <hr className="mt-5 mb-5"  />
+        <hr className="mt-5 mb-5" />
         <p className="text-slate-300">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit,
           odit!

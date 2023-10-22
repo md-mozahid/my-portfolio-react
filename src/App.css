@@ -55,7 +55,7 @@ h2::after {
   margin-top: 15px;
 }
 
-footer::before {
+/* footer::before {
   content: '';
   background-color: #374151;
   width: 100%;
@@ -64,7 +64,7 @@ footer::before {
   display: block;
   margin-top: 15px;
   margin-bottom: 25px;
-}
+} */
 hr {
   border: 1px solid #374151 !important;
 }

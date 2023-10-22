@@ -2,9 +2,9 @@ import Client from './client'
 
 const Clients = () => {
   return (
-    <section className="">
+    <section className="max-w-full">
       <div className="text-center mb-16">
-        <h2 className="text-6xl font-sans font-bold tracking-wide uppercase">
+        <h2 className="text-5xl font-semibold tracking-wider uppercase">
           Client Feedback
         </h2>
       </div>
