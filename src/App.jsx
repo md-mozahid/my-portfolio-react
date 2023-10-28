@@ -4,7 +4,6 @@ import Experience from './components/sections/resume/experience'
 import Interview from './components/sections/resume/interview'
 import Skills from './components/sections/resume/skills'
 import Layout from './layout/layout'
-import About from './pages/about'
 import Clients from './pages/clients'
 import Contact from './pages/contact'
 import Home from './pages/home'
@@ -20,7 +19,6 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="skills" element={<Skills />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
