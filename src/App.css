@@ -71,3 +71,7 @@ hr {
 .active {
   background-color: #334155 !important;
 }
+
+.hoverEffect:hover div {
+  bottom: 0% !important;
+}
