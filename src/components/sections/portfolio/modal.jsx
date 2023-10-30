@@ -7,7 +7,6 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  // width: 500,
   maxHeight: '90vh',
   border: 'none',
   boxShadow: 90,
@@ -23,13 +22,14 @@ const PortfolioModal = ({ open, setOpen, portfolio }) => {
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description">
+        aria-describedby="modal-modal-description"
+      >
         <Box sx={style}>
-          <ModalContent portfolio={portfolio} />
+          <ModalContent portfolio={portfolio} handleClose={handleClose} />
         </Box>
       </Modal>
     </>
-  )
+  );
 }
 
 export default PortfolioModal

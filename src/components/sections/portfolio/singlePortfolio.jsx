@@ -7,7 +7,6 @@ const img =
 
 const Portfolio = ({ portfolio = {} }) => {
   const { title, category } = portfolio || {}
-  const x= portfolio
   const [open, setOpen] = useState(false)
   const handleOpen = () => {
     setOpen(true)
@@ -25,7 +24,7 @@ const Portfolio = ({ portfolio = {} }) => {
         className="relative w-full hoverEffect object-contain overflow-hidden  p-6 border border-[#475569] rounded-lg hover:cursor-pointer">
         <img className="rounded-md object-cover" src={img} alt="image" />
 
-        <div className="absolute bg-slate-500  h-[80px] w-full -bottom-full left-0 z-30 md:flex justify-center items-center transition-all ease-in-out duration-[500ms] hidden">
+        <div className="absolute bg-slate-500 bg-transparent h-[180px] w-full -bottom-full left-0 z-30 md:flex justify-center items-center transition-all ease-in-out duration-[500ms] hidden">
           <div className="font-semibold capitalize text-base text-center ">
             <h2>{title || 'Title'}</h2>
 
