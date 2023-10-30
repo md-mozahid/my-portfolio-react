@@ -14,7 +14,7 @@ const style = {
   p: 2,
 }
 
-const PortfolioModal = ({ open, setOpen }) => {
+const PortfolioModal = ({ open, setOpen, portfolio }) => {
   const handleClose = () => setOpen(false)
 
   return (
@@ -25,7 +25,7 @@ const PortfolioModal = ({ open, setOpen }) => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description">
         <Box sx={style}>
-          <ModalContent />
+          <ModalContent portfolio={portfolio} />
         </Box>
       </Modal>
     </>
