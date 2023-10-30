@@ -1,55 +1,54 @@
-const ModalContent = ({ portfolio = {}, handleClose }) => {
+import Close from '../../../assets/icons/x.svg'
+import ButtonLink from '../../button/button-link'
+
+const ModalContent = ({ portfolio, handleClose }) => {
   const { title, thumbnail, description, category, link, source } =
-    portfolio || {};
+    portfolio || {}
 
   return (
     <div className="relative w-full p-6 border bg-slate-800 border-[#475569] rounded-lg">
-      <span
-        className="absolute  top-3 right-3 text-2xl cursor-pointer hover:bg-rose-600 px-3 py-1 rounded-full"
+      <img
+        className="absolute w-8 bg-green-500 top-5 right-5 text-2xl cursor-pointer p-1 rounded-full hover:bg-rose-600"
         onClick={handleClose}
-      >
-        X
-      </span>
-      <div className="min-h-[5vh] max-h-[50vh] overflow-hidden scrollbar-hide rounded-lg">
+        src={Close}
+        alt="close"
+      />
+
+      <div className="min-h-[5vh] max-h-[40vh] overflow-hidden scrollbar-hide rounded-lg">
         <img src={thumbnail} alt="image" />
       </div>
 
       <div className="mt-4">
         <div className="flex items-center justify-between font-semibold">
           <span className="text-xl font-semibold">{title}</span>
-          <span>375</span>
         </div>
         <p className="mt-3">{description}</p>
-        <div className="mt-5 space-x-5 text-center">
+        <div className="my-5 space-x-5">
           {category.map((tag, i) => (
-            <button key={i} className="bg-purple-500 px-4 py-1  rounded-full">
+            <span key={i} className="bg-sky-500 px-4 py-1  rounded-full">
               {tag}
-            </button>
+            </span>
           ))}
         </div>
-        <div className="mt-5 flex">
-          <a
-            type="button"
-            className="btn border"
+        <div className="mt-6 space-x-6 ">
+          <ButtonLink
+            className="bg-pink-600 hover:bg-pink-700"
             href={link}
             target="_blank"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             Live Preview
-          </a>
-          <a
-            type="button"
-            className="btn border"
+          </ButtonLink>
+          <ButtonLink
+            className="bg-teal-600 hover:bg-teal-700"
             href={source}
             target="_blank"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             GitHub
-          </a>
+          </ButtonLink>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ModalContent;
+export default ModalContent

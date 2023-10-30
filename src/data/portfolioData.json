@@ -3,7 +3,7 @@
     "id": 1,
     "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
     "title": "Flight Booking Application.",
-    "category": ["React", "Redux", "Javascript"],
+    "category": ["React","Redux", "Javascript"],
     "link": "https://m-react-redux-flight-booking-app.netlify.app",
     "source": "https://github.com/md-mozahid/react-redux-flight-booking-app",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
@@ -11,46 +11,73 @@
   {
     "id": 2,
     "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
-    "title": "Gallery",
+    "title": "NFT Dashboard Application.",
     "category": ["React", "Redux", "Javascript"],
     "link": "",
-    "source": "NFT Dashboard Application.",
+    "source": "",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
   },
   {
     "id": 3,
     "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
-    "title": "Gallery",
+    "title": "Gallery2",
     "category": ["React", "Redux", "Javascript"],
     "link": "",
-    "source": "NFT Dashboard Application.",
+    "source": "",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
   },
   {
     "id": 4,
     "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
-    "title": "Gallery",
+    "title": "Gallery3",
     "category": ["React", "Redux", "Javascript"],
     "link": "",
-    "source": "NFT Dashboard Application.",
+    "source": "",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
   },
   {
     "id": 5,
     "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
-    "title": "Gallery",
+    "title": "Gallery4",
     "category": ["React", "Redux", "Javascript"],
     "link": "",
-    "source": "NFT Dashboard Application.",
+    "source": "",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
   },
   {
     "id": 6,
     "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
-    "title": "Gallery",
+    "title": "Gallery5",
     "category": ["React", "Redux", "Javascript"],
     "link": "",
-    "source": "NFT Dashboard Application.",
+    "source": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
+  },
+  {
+    "id": 7,
+    "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
+    "title": "Gallery6",
+    "category": ["React", "Redux", "Javascript"],
+    "link": "",
+    "source": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
+  },
+  {
+    "id": 8,
+    "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
+    "title": "Gallery7",
+    "category": ["React", "Redux", "Javascript"],
+    "link": "",
+    "source": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
+  },
+  {
+    "id": 9,
+    "thumbnail": "https://i.ibb.co/k3FDD0T/Flight-book-app.png",
+    "title": "Gallery8",
+    "category": ["React", "Redux", "Javascript"],
+    "link": "",
+    "source": "",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum neque, recusandae totam reprehenderit fuga odio atque accusamus voluptatibus optio odit earum debitis quod dignissimos voluptate sunt dolore minima vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque sequi laudantium maiores quibusdam nesciunt voluptate quod, asperiores corrupti! Tempora."
   }
 ]

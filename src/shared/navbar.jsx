@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="mx-auto flex items-center justify-between px-5 py-8">
+    <div className=''>
+      <nav className="mx-auto flex items-center justify-between px-5 py-6 ">
         <span className="text-3xl">
           <Link to="/">Logo</Link>
         </span>
@@ -13,13 +13,10 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="resume">Education</Link>
-            </li>
-            <li>
               <Link to="/skills">Skill</Link>
             </li>
             <li>
-              <Link to="portfolio">Portfolio</Link>
+              <Link to="portfolio">Projects</Link>
             </li>
             <li>
               <Link to="clients">Client</Link>

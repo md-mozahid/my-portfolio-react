@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Client Name1",
+    "star": 5,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias ut provident sapiente repellendus"
+  },
+  {
+    "id": 2,
+    "name": "Client Name2",
+    "star": 4,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias ut provident sapiente repellendusLorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias ut provident"
+  },
+  {
+    "id": 3,
+    "name": "Client Name3",
+    "star": 3,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias ut provident sapiente repellendus"
+  },
+  {
+    "id": 4,
+    "name": "Client Name4",
+    "star": 2,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias ut provident sapiente repellendus"
+  },
+  {
+    "id": 5,
+    "name": "Client Name5",
+    "star": 1,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem alias ut provident sapiente repellendus"
+  }
+]
