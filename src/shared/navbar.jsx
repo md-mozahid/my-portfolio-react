@@ -1,29 +1,19 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className=''>
+    <div className="">
       <nav className="mx-auto flex items-center justify-between px-5 py-6 ">
         <span className="text-3xl">
           <Link to="/">Logo</Link>
         </span>
         <div className="hidden md:block">
           <ul className="inline-flex space-x-4 uppercase">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/skills">Skill</Link>
-            </li>
-            <li>
-              <Link to="portfolio">Projects</Link>
-            </li>
-            <li>
-              <Link to="clients">Client</Link>
-            </li>
-            <li>
-              <Link to="contact">Contact</Link>
-            </li>
+            {['home', 'skills', 'portfolio', 'clients', 'contact'].map((item, index) => (
+              <li key={index}>
+                <Link to={item}>{item}</Link>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="flex items-center">
@@ -37,7 +27,7 @@ const Navbar = () => {
       </nav>
       <hr />
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

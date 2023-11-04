@@ -1,12 +1,7 @@
-import PageLayout from "../layout/pageLayout"
-import Testimonial from '../components/sections/testimonial/testimonials'
+import Testimonial from "../container/testimonial";
 
 const Testimonials = () => {
-  return (
-    <PageLayout>
-        <Testimonial />
-    </PageLayout>
-  )
-}
+  return <section className="">{<Testimonial />}</section>;
+};
 
-export default Testimonials
+export default Testimonials;

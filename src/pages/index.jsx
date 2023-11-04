@@ -1,0 +1,11 @@
+export { default as Clients } from "./clients";
+export { default as Services } from "./services";
+export { default as Contacts } from "./contacts";
+export { default as Header } from "./header";
+export { default as Portfolios } from "./portfolios";
+export { default as Testimonials } from "./testimonials";
+export { default as NotFoundPage } from "./notFoundPage";
+export { default as Home } from "./home";
+export { default as Skills } from "./skills";
+export { default as Navbar } from "../shared/navbar";
+export { default as Footer } from "../shared/footer";

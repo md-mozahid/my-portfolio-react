@@ -1,12 +1,11 @@
-import Service from '../components/sections/service/service'
-import PageLayout from '../layout/pageLayout'
+import  Service  from "../container/service";
 
 const Services = () => {
   return (
-    <PageLayout>
+    <section className="">
       <Service />
-    </PageLayout>
-  )
-}
+    </section>
+  );
+};
 
-export default Services
+export default Services;

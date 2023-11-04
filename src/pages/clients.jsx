@@ -1,12 +1,11 @@
-import Client from '../components/sections/client/clients'
-import PageLayout from '../layout/pageLayout'
+import Clients from "../container/client";
 
-const Clients = () => {
+const Client = () => {
   return (
-    <PageLayout>
-      <Client />
-    </PageLayout>
-  )
-}
+    <section>
+      <Clients />
+    </section>
+  );
+};
 
-export default Clients
+export default Client;
