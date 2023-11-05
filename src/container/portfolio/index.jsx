@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import ProjectList from '../../data/portfolioData'
 import Button from '../../components/button/button'
+import ProjectList from '../../data/portfolioData'
 import Portfolio from './singlePortfolio'
 
 const Portfolios = () => {
@@ -20,30 +20,31 @@ const Portfolios = () => {
 
   return (
     <>
-    <section className="py-16">
-      <div className="text-center mb-20">
-        <h2 className="text-5xl font-semibold tracking-wider uppercase">
-          My Portfolio
-        </h2>
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projectSlice.map((portfolio, index) => {
-          return <Portfolio key={index} portfolio={portfolio} />
-        })}
-      </div>
-      {path === '/' && (
-        <div className="mt-10 text-center">
-          <Link to="portfolio">
-            <Button className="bg-rose-400 hover:px-16 transition-all">
-              Show more
-              <i className="fa-solid fa-arrow-right pl-2"></i>
-            </Button>
-          </Link>
+      <section className="py-16">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl font-semibold tracking-wider uppercase">
+            My Portfolio
+          </h2>
         </div>
-      )}
-    </section>
-     <hr />
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projectSlice.map((portfolio, index) => {
+            return <Portfolio key={index} portfolio={portfolio} />
+          })}
+        </div>
+
+        {path === '/' && (
+          <div className="mt-10 text-center">
+            <Link to="portfolio">
+              <Button className="bg-rose-400 hover:px-16 transition-all">
+                Show more
+                <i className="fa-solid fa-arrow-right pl-2"></i>
+              </Button>
+            </Link>
+          </div>
+        )}
+      </section>
+      <hr />
     </>
   )
 }

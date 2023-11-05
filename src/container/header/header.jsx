@@ -16,8 +16,8 @@ const Header = () => {
                 fugiat aliqua.
               </p>
             </div>
-            <div class="flex items-start flex-col mt-10">
-              <h3 class="uppercase text-lg mb-6">find with me</h3>
+            <div className="flex items-start flex-col mt-10">
+              <h3 className="uppercase text-lg mb-6">find with me</h3>
               <div className="fw-i flex items-center space-x-5">
                 <i className="fab fa-facebook-f hover:bg-[#3b5997]"></i>
                 <i className="fab fa-linkedin-in hover:bg-[#0077b5]"></i>

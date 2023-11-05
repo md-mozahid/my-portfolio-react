@@ -1,4 +1,4 @@
-import Skill from "./skill";
+import Skill from './skill'
 
 const Skills = () => {
   return (
@@ -14,6 +14,6 @@ const Skills = () => {
       <hr />
     </>
   )
-};
+}
 
-export default Skills;
+export default Skills
