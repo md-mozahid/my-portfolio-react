@@ -37,7 +37,13 @@
     @apply w-full bg-[#0f1629] p-3 border border-[#475569] outline-0 rounded-md mt-1 mb-3 focus:border-rose-700;
   }
   .btn {
-    @apply text-center text-base uppercase font-medium px-12 py-4 border-0 table rounded-lg m-auto cursor-pointer hover:bg-[#334155];
+    @apply text-center text-lg uppercase font-medium px-12 py-2 border-0 rounded-full cursor-pointer;
+  }
+  .btn-primary {
+    @apply bg-teal-600 hover:bg-teal-500 hover:transition-all;
+  }
+  .btn-secondary {
+    @apply bg-sky-600 hover:bg-sky-500 hover:transition-all;
   }
   .btn-fw {
     @apply w-full;
@@ -50,5 +56,11 @@
   }
   .img-icon {
     @apply bg-slate-400 w-12 h-12 p-4 m-auto text-center inline-block rounded-lg font-semibold cursor-pointer;
+  }
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-between {
+    @apply flex items-center justify-between;
   }
 }
