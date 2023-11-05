@@ -3,8 +3,9 @@ import Testimonial from './singleTestimonial'
 
 const Testimonials = () => {
   return (
-    <section className="max-w-full">
-      <div className="text-center mb-16">
+    <>
+    <section className="py-16">
+      <div className="text-center mb-20">
         <h2 className="text-5xl font-semibold tracking-wider uppercase">
           Testimonial
         </h2>
@@ -15,6 +16,8 @@ const Testimonials = () => {
         })}
       </div>
     </section>
+     <hr />
+    </>
   )
 }
 

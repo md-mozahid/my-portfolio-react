@@ -76,14 +76,14 @@ const Skill = () => {
           in.
         </p>
       </div>
-      <div className="skillItem">
+      {/* <div className="skillItem">
         <img src={Github} alt="" />
         <h4>GitHub</h4>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
           in.
         </p>
-      </div>
+      </div> */}
     </div>
   )
 }

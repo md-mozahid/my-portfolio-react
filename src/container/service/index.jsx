@@ -3,8 +3,9 @@ import SingleService from './singleService'
 
 const Service = () => {
   return (
-    <section className="max-w-full">
-      <div className="text-center mb-16">
+    <>
+    <section className="py-16">
+      <div className="text-center mb-20">
         <h2 className="text-5xl font-semibold tracking-wider uppercase">
           Services
         </h2>
@@ -15,6 +16,8 @@ const Service = () => {
         })}
       </div>
     </section>
+     <hr />
+    </>
   )
 }
 

@@ -2,8 +2,9 @@ import SingleClient from "./singleClient";
 
 const Clients = () => {
   return (
-    <div className="max-w-full">
-      <div className="text-center mb-16">
+    <>
+    <section className="py-16">
+      <div className="text-center mb-20">
         <h2 className="text-5xl font-semibold tracking-wider uppercase">
           Client Feedback
         </h2>
@@ -22,7 +23,9 @@ const Clients = () => {
           </a>
         ))}
       </div>
-    </div>
+    </section>
+     <hr />
+    </>
   );
 };
 
