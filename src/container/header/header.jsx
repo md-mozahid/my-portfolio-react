@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header className="h-[100vh] flex gap-6">
-        <div className="flex flex-row mt-36">
+        <div className="mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="flex flex-col items-center">
             <div className="text-center">
               <h1 className="text-5xl font-bold tracking-wider mb-5">

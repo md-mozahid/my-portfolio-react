@@ -1,4 +1,4 @@
-import { images } from "../../constants";
+import { images } from '../../constants'
 
 const Client = () => {
   return (
@@ -29,7 +29,7 @@ const Client = () => {
         perferendis dignissimos sint.
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default Client;
+export default Client
